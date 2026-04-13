@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            text-align: center;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 50px auto;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+        img {
+            width: 120px;
+            border-radius: 50%;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <img src="https://via.placeholder.com/120" alt="Profile">
+    <h2>Aron Steev</h2>
+    <p>B.Tech Computer Science</p>
+
+    <h3>Skills</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Contact</h3>
+    <p><a href="mailto:aron@example.com">Email</a></p>
+    <p><a href="#">LinkedIn</a></p>
+</div>
+
+</body>
+</html>
